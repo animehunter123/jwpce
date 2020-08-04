@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jwpce</id>
+    <version>1.50</version>
+    <packageSourceUrl>https://github.com/animehunter123/jwpce/</packageSourceUrl>
+    <owners>anim and mije</owners>    
+    <title>jwpce (Install)</title>
+    <authors>anime,mije</authors>
+    <projectUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
+    <tags>jwpce jwpceportable jwpxp jwpxpportable</tags>
+    <summary>A chocolatey package wrapper for the Jwpce Jwpxp (GPL) dictionary application.</summary>
+    <description>This is a chocolatey zip package for the popular JWPCE JWPXP japanese text editor.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
