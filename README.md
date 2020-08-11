@@ -1,5 +1,5 @@
 ﻿# JWPce
-A chocolatey package wrapper for the Jwpce Jwpxp (GPL) dictionary application. This nugget package downloads the JWPce zip file from M.I.J.E.T's webpage [https://mijet.eludevisibility.org/JWPxp/JWPce%201.50.7z], and installs it on your Windows 10 Desktop machine!
+A chocolatey package wrapper for the Jwpce Jwpxp (GPL) dictionary application. This nugget package downloads the JWPce zip file from M.I.J.E.T's Webpage [https://mijet.eludevisibility.org/JWPxp/JWPce%201.50.7z], and installs it on your Windows 10 Desktop machine!
 
 <img width="964" alt="jwpce" src="https://user-images.githubusercontent.com/42163211/69770486-93451480-11cc-11ea-9a15-e1460ceb0a45.png">
 
