@@ -5,18 +5,21 @@
     <version>1.50</version>
     <packageSourceUrl>https://github.com/animehunter123/jwpce/</packageSourceUrl>
     <owners>mijet anim</owners>    
-    <title>jwpce (Install)</title>
+    <title>JWPce (Install)</title>
     <authors>mije,anim</authors>
     <projectUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
     <iconUrl>https://user-images.githubusercontent.com/42163211/89867125-aa595480-dbeb-11ea-9744-a2d065a81321.png</iconUrl>
-    <tags>jwpce jwpxp</tags>
+    <tags>jwpce jwpxp japan japanese dictionary</tags>
     <summary>A chocolatey package wrapper for the Jwpce Jwpxp (GPL) dictionary application.</summary>
     <description>This is a chocolatey zip package for the popular JWPCE JWPXP japanese text editor.</description>
-    <licenseUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
-    <mailingListUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
-    <bugTrackerUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
-    <projectSourceUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
+    <licenseUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</licenseUrl>
+    <mailingListUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</mailingListUrl>
+    <bugTrackerUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</bugTrackerUrl>
+    <projectSourceUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectSourceUrl>
+    <packageSourceUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</packageSourceUrl>
+    <docsUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</docsUrl>
     <releaseNotes>This is our initial push of the nuget package to chocolatey with M.I.J.E.T's kind assistance. We hope that this package helps all language learners around the world. Please remember to support free software and your local university language professors of all disciples.</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
