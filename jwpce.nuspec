@@ -12,11 +12,11 @@
     <tags>jwpce jwpxp japan japanese dictionary</tags>
     <summary>A chocolatey package wrapper for the Jwpce Jwpxp (GPL) dictionary application.</summary>
     <description>This is a chocolatey zip package for the popular JWPCE JWPXP japanese text editor.</description>
-    <licenseUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/LICENSE</licenseUrl>
-    <mailingListUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/MAILINGLIST</mailingListUrl>
-    <bugTrackerUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/BUGTRACKER</bugTrackerUrl>
-    <projectSourceUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/PROJECTSOURCE</projectSourceUrl>
-    <docsUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/DOCS</docsUrl>
+    <!-- <licenseUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/LICENSE</licenseUrl> -->
+    <!-- <mailingListUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/MAILINGLIST</mailingListUrl> -->
+    <!-- <bugTrackerUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/BUGTRACKER</bugTrackerUrl> -->
+    <!-- <projectSourceUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/PROJECTSOURCE</projectSourceUrl> -->
+    <!-- <docsUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/DOCS</docsUrl> -->
     <releaseNotes>This is our initial push of the nuget package to chocolatey with M.I.J.E.T's kind assistance. We hope that this package helps all language learners around the world. Please remember to support free software and your local university language professors of all disciples.</releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
