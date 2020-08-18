@@ -12,21 +12,13 @@ $packageArgs = @{
   softwareName  = "$shortcutName"
 }
 
-# Stop existing proceses from running, clean up source directories, and :
-Write-Host -ForegroundColor Green "Installing $shortcutName. Stopping and removing previous version."
+# Stop existing proceses from running:
 Stop-Process  -Name "$packageName" -force 2>$null
-Start-Sleep -Seconds 1 2>$null
-remove-item -Recurse -Force $toolsDir 2>$null
-remove-item -Recurse -Force "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\$packageName" 2>$null
-remove-item -Recurse -Force "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\$shortcutName.lnk" 2>$null
-remove-item -Recurse -Force "C:\Users\Public\Desktop\$shortcutName.lnk" 2>$null
 
 # Install JWPce into the Program Files directory
 Install-ChocolateyZipPackage @packageArgs 
 
-# Install shortcuts in the Start menu and Desktop
+# Install shortcuts in the Windows Start Menu and Desktop
 mkdir "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\$packageName"
 Install-ChocolateyShortcut -ShortcutFilePath "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\$shortcutName.lnk" -TargetPath "$toolsDir\$packageName.exe"
 Copy-Item "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\$shortcutName.lnk" "C:\Users\Public\Desktop"
-
-Write-Host -ForegroundColor Green "$shortcutName was installed correctly with fresh settings."

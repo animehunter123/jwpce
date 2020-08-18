@@ -4,13 +4,19 @@
     <id>jwpce</id>
     <version>1.50</version>
     <packageSourceUrl>https://github.com/animehunter123/jwpce/</packageSourceUrl>
-    <owners>anim and mije</owners>    
+    <owners>mijet anim</owners>    
     <title>jwpce (Install)</title>
-    <authors>anime,mije</authors>
+    <authors>mije,anim</authors>
     <projectUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
-    <tags>jwpce jwpceportable jwpxp jwpxpportable</tags>
+    <iconUrl>https://user-images.githubusercontent.com/42163211/89867125-aa595480-dbeb-11ea-9744-a2d065a81321.png</iconUrl>
+    <tags>jwpce jwpxp</tags>
     <summary>A chocolatey package wrapper for the Jwpce Jwpxp (GPL) dictionary application.</summary>
     <description>This is a chocolatey zip package for the popular JWPCE JWPXP japanese text editor.</description>
+    <licenseUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
+    <mailingListUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
+    <bugTrackerUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
+    <projectSourceUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectUrl>
+    <releaseNotes>This is our initial push of the nuget package to chocolatey with M.I.J.E.T's kind assistance. We hope that this package helps all language learners around the world. Please remember to support free software and your local university language professors of all disciples.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
