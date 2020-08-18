@@ -16,7 +16,6 @@
     <mailingListUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</mailingListUrl>
     <bugTrackerUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</bugTrackerUrl>
     <projectSourceUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</projectSourceUrl>
-    <packageSourceUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</packageSourceUrl>
     <docsUrl>http://www.tanos.co.uk/jlpt/extras/jwpce/</docsUrl>
     <releaseNotes>This is our initial push of the nuget package to chocolatey with M.I.J.E.T's kind assistance. We hope that this package helps all language learners around the world. Please remember to support free software and your local university language professors of all disciples.</releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
