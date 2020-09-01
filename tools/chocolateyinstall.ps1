@@ -1,6 +1,5 @@
-﻿$ErrorActionPreference = 'SilentlyContinue';
-
-# Package Variables
+﻿# Package Variables
+$ErrorActionPreference = 'SilentlyContinue';
 $packageName= 'jwpce'
 $shortcutName= 'JWPce'
 $toolsDir   = "$env:ProgramFiles\$shortcutName"
@@ -20,5 +19,5 @@ Install-ChocolateyZipPackage @packageArgs
 
 # Install shortcuts in the Windows Start Menu and Desktop
 mkdir "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\$shortcutName"
-Install-ChocolateyShortcut -ShortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\$shortcutName.lnk" -TargetPath "$toolsDir\$packageName.exe"
+Install-ChocolateyShortcut -ShortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\$shortcutName\$shortcutName.lnk" -TargetPath "$toolsDir\$packageName.exe"
 Copy-Item "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\$shortcutName\$shortcutName.lnk" "$env:ProgramData\Desktop"
