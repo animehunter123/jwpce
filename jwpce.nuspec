@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>jwpce</id>
-    <version>1.50</version>
+    <version>1.50.20200915</version>
     <packageSourceUrl>https://github.com/animehunter123/jwpce/</packageSourceUrl>
     <owners>mijet anim</owners>    
     <title>JWPce (Install)</title>
